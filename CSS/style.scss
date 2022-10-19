@@ -35,7 +35,7 @@ header {
   height: 88px;
 
   a {
-    padding: 6px 22px;
+    padding: 11px 24px;
     line-height: 1.5;
     font-weight: 400;
     font-size: 24px;
@@ -43,7 +43,6 @@ header {
     margin-left: 1rem;
   }
 }
-
 .nav-button-submit {
   background-color: $light-black;
   color: $white;
@@ -52,4 +51,9 @@ header {
 .nav-button-signin {
   background-color: $purple;
   color: $white;
+  transition: 0.3s;
+  &:hover {
+    background-color: $white;
+    color: $black;
+  } 
 }

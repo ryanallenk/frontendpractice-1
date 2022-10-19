@@ -42,7 +42,7 @@ header {
   height: 88px;
 }
 header a {
-  padding: 6px 22px;
+  padding: 11px 24px;
   line-height: 1.5;
   font-weight: 400;
   font-size: 24px;
@@ -59,4 +59,9 @@ header a {
 .nav-button-signin {
   background-color: #4C5FD5;
   color: #fff;
+  transition: 0.3s;
+}
+.nav-button-signin:hover {
+  background-color: #fff;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
