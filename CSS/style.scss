@@ -93,6 +93,8 @@ header {
       position: absolute;
       display: inline-block;
       z-index: 100;
+      right: 15px;
+      transform: translateY(20px);
     }
   }
 }
