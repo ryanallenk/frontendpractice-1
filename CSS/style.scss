@@ -81,20 +81,21 @@ header {
   .search__box {
     position: relative;
     input {
-      width: 100%;
+      width: 720px;
       font-family: "GT America Standard", serif;
       border: 1px solid $black;
       border-radius: 4px;
       font-size: 20px;
       font-weight: 400;
       padding: 1rem 1rem;
+      margin-top: 2rem;
     }
     .search-arrow {
       position: absolute;
       display: inline-block;
       z-index: 100;
       right: 15px;
-      transform: translateY(20px);
+      transform: translateY(50px);
     }
   }
 }
